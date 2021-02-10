@@ -2,7 +2,6 @@ import functools
 import logging
 import os
 
-from pip._vendor import six
 from pip._vendor.packaging.utils import canonicalize_name
 from pip._vendor.resolvelib import ResolutionImpossible
 from pip._vendor.resolvelib import Resolver as RLResolver

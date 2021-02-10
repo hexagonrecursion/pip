@@ -26,6 +26,7 @@ if MYPY_CHECK_RUNNING:
     from typing import Dict, List, Optional
 
     from typing_extensions import TypedDict
+
     class TransformedHit(TypedDict):
         name: str
         summary: str
