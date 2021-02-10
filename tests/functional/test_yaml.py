@@ -142,8 +142,7 @@ def check_error(error, result):
 
     for patter in patters:
         match = re.search(patter, result.stderr, re.I)
-        assert match, 'regex %r not found in stderr: %r' % (
-            stderr, result.stderr)
+        assert match, f'regex {stderr!r} not found in stderr: {result.stderr!r}'
 
 
 @pytest.mark.yaml
